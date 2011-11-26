@@ -1,0 +1,286 @@
+/*
+Theme Name: Destination 2011
+Theme URI: http://www.thsnaringsliv.se
+Author: Filip Hindemark, IT ansvarig för destination 2011
+Description: Temat för THS Näringslivs Project Destination 2011/2012
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags: 
+*/
+
+/* 
+-------------------------------------------------------------- */
+
+body{
+	background-color: #F0F0D8;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+}
+.wrapper960
+{
+	width: 960px;
+	margin: 0 auto;
+}
+#wrapper
+{
+	top:1px;
+	width: 960px;
+	margin: 0px auto;
+
+	background-color: #fafafa;
+/*
+	-webkit-box-shadow: 0px -1px 4px #999;
+	-moz-box-shadow: 0px -1px 4px #999;
+	box-shadow: 0px -1px 4px #999;*/
+	
+	-webkit-box-shadow: 5px 1px 4px #999;
+	-moz-box-shadow: 5px 1px 4px #999;
+	box-shadow: 5px 1px 4px #999;
+
+	position: relative;
+
+}
+
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+.clearboth{
+	clear:both;
+}
+
+/*===Header===*/
+#header{
+	background-color: #609000;;
+
+	-webkit-box-shadow: 0px 1px 4px #999;
+	-moz-box-shadow: 0px 1px 4px #999;
+	box-shadow: 0px 1px 4px #999;
+
+	padding: 10px 0px;
+	position: relative;
+
+
+}
+/*
+.headerinfo{
+	margin:0 auto;
+	width:900px;
+}*/
+#header img.logo{
+	width: 165px;
+	height: 205px;
+	left: -11px;
+	position: relative;
+}
+#header p.headerQuestion{
+	color: #fff;
+	position: relative;
+	font-size: 47px;
+	letter-spacing: 5px;
+	top: 20px;
+
+}
+div.rightheader{
+	width: 795px;
+
+	margin: 0 auto;
+	float: left;
+	position: relative;
+	top: 20px;
+	left: -40px;
+}
+p.headLogo{
+	font-size: 5em;
+	letter-spacing:5px;
+	color: white;
+}
+/*== Sidebar ==*/
+#sidebar
+{
+	padding-top:10px;
+	width:200px;
+	float:right;
+
+}
+.menu a{
+	width: 80px;
+	margin-bottom:10px;
+	text-align: right;
+	-webkit-transition: left 1s ease-in-out;
+	-moz-transition:  left 1s ease-in-out;
+	-o-transition:  left 1s ease-in-out;
+	-ms-transition:  left 1s ease-in-out;
+	transition:  left 1s ease-in-out;
+}
+
+
+
+div.menu {
+	top: 50px;
+	position: relative;
+	left: -9px;
+}
+
+div.menu li{
+	list-style-type: none;
+}
+
+div.menu a{
+	color: #FF8C00;
+}
+div.menu a:link,a:visited,a:hover,a:active{
+
+	text-decoration: none;
+}
+
+ul.menu li {
+
+	background-color: #F0F0D8;
+	width: 90px;
+	height:50px;
+	overflow:hidden;
+	color: #FF8C00;	
+	margin-bottom:10px;
+	border: 1px solid gray;
+	border-left:none;
+	text-align: right;
+	-webkit-transition: left 1s ease-in-out;
+	-moz-transition:  left 1s ease-in-out;
+	-o-transition:  left 1s ease-in-out;
+	-ms-transition:  left 1s ease-in-out;
+	transition:  left 1s ease-in-out;
+}
+div.mainsponsor li{
+	list-style-type: none;
+	position:relative;
+}
+div.mainsponsor img{
+	width:70px;
+	height:70px;
+	background-color: #ddd;
+}
+.menulidiv{
+	width: 80px;
+	height: 35px;
+	left: 0px;
+	position: relative;
+}
+.menulidiv img,.menulidiv p{
+	position:relative;
+	top:25%;
+}
+.menulidiv img{
+	width:20px;
+	float:left;
+}
+.current{
+	width:130px !important;
+	background-color:#D8D8A8 !important;
+}
+.current div{
+	left:40px;
+}
+
+
+
+/*== Content ==*/
+#content {
+	padding-top: 10px;
+	width: 750px;
+	height:400px;
+	border-right: 1px solid #999;
+
+	background-color: white;
+	float:left;
+}
+div.information{
+	font-style:oblique;
+	width:620px;
+	padding-bottom:30px;
+}
+div.information li{
+	list-style-type: none;
+	margin-left: 20px;
+}
+div#posts{
+	margin-left:20px;
+	position:relative;
+	width: 720px;
+}
+div#posts h3 a{
+
+}
+div#posts h3 a:link,a:visited,a:hover,a:active{
+
+	text-decoration: none;
+}
+/*== Pages ==*/
+div.pagetitle{
+	width:620px;
+	margin: .5em;
+
+}
+div.pagecontent{
+	margin: .5em;
+	width:620px;
+	margin: 0 auto;
+}
+/*==Footer ==*/
+#footer {
+height: 175px;
+background-color: #C0C078;
+color: white;
+top: 2px;
+position: relative;
+}
+#footer div.sponsors{
+	width: 435px;
+}
+#footer div.othersponsors{
+	float:left;
+	width:500px;
+}
+#footer div.othersponsors img{
+	width:40px;
+	height:40px;
+}
+#footer div.othersponsors p{
+float: right;
+margin: 10px;
+}
+#footer div.mainsponsor{
+	width:140px;
+}
+#footer div.sponsors img{
+	width:40px;
+	height:40px;
+	background-color: #000;
+	float: left;
+	margin-right: 5px;
+}
+#footer div.sponsors p{
+	width:90px;
+	height:40px;
+	float: right;
+}
+#footer div.sponsorpair{
+	float:left;
+	width: 150px;
+	margin-left: 10px;
+}
+#footer div.presentedby{
+	width:250px;
+}
+#footer div.presentedby p{
+	width:135px;
+}
+#footer div.presentedby img{
+	width:100px;
+
+}
