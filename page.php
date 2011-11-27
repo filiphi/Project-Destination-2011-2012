@@ -8,7 +8,7 @@ date_default_timezone_set("Europe/Stockholm");
 		<?php the_post_thumbnail();?>
 	</div>
 	<?php } ?> 
-	<div id="wrapper">
+	<div clas="wrapper960">
 		<div id="sidebar">
 			<div class="mainsponsor">
 				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Main Sponsor') ) : ?>
@@ -24,6 +24,7 @@ date_default_timezone_set("Europe/Stockholm");
 		</div>
 		<div id="content">
 			<div id="post-<?php the_ID(); ?>" <?php post_class('post'); ?>>
+				HEHEHEHE
 				<?php ($name = get_the_ID()); ?>
 				<div class="pagetitle">
 				<h2><?php the_title(); ?></h2>

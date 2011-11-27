@@ -35,6 +35,8 @@
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/reset.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/nivo-slider/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/nivo-slider/theme/default/default.css" type="text/css" media="screen"/>
 
 <script src="http://www.google.com/jsapi"></script>
 <script type="text/javascript">
@@ -44,12 +46,19 @@ google.load("jquery", "1");
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 <script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
-<script src="<?php bloginfo('template_url');?>/js/GGS.js"></script>
-<!--<script src="<?php bloginfo('template_url');?>/js/script.js"></script> -->
+
 <script src="<?php bloginfo('template_url');?>/js/destination.js"></script>
+<script src="<?php bloginfo('template_url');?>/nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+
 <?php
 	wp_head();
 ?>
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+</script>
 </head>
 <body>
 
@@ -57,9 +66,13 @@ google.load("jquery", "1");
 	<div class="wrapper960">
 	<div class="headerinfo">
 		<img class="left logo" src="<?php bloginfo('template_url');?>/images/project_logga.png"/>
-		<div class="rightheader">
-			<p class="headLogo"> Project Destination </p>
-			<p class="headerQuestion">Is the World your new Office?</p>		
+		<div class="menu right">
+			<a href="#">Home</a>
+			<a href="#">About Us</a>
+			<a href="#">For Companies</a>
+			<a href="#">Upcomming</a>
+			<a href="#">Contact</a>
+
 		</div>
 	</div>
 	</div>
